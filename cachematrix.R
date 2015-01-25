@@ -29,7 +29,7 @@ cacheSolve <- function(x, ...) {
   m <- x$getinverse()
   ## need to see if x has a cached inverse by comparing the value of the matrix to what was input in this function
   
-     if the m is not null then retrieve the cached value
+     ## if the m is not null then retrieve the cached value
     if(!is.null(m)){
       message("getting cached inverse")
       return(m)
